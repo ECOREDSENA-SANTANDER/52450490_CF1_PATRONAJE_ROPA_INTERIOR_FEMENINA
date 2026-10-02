@@ -1,1 +1,1 @@
-module.exports = 'Estructura corporal femenina y sistema de medidas.'
+module.exports = 'Estructura corporal femenina y sistema de medidas'
