@@ -55,6 +55,73 @@ figcaption
 .banner-interno__fondo
     background-image: url(../assets/curso/portada/fondo-banner-temas.png) !important
 
+//Titulo 3er icono +  texto
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: #F2E5DB
+  border-radius: 30px
+  padding-right: 16px
+  padding-left: 60px
+  min-height: 48px
+ 
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
+    border-radius: 0px
+
+
+
+  &__icon
+    position: absolute
+    left: -10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 70px
+    max-width: 85px
+    height: auto
+
+    @media screen and (max-width: $bp-min-md)
+      display: none
+
+  &__text
+    margin: 0
+    margin: 0 15px 0 10px
+    white-space: normal
+    word-break: break-word
+//TABLAS
+.tabla-a.color-acento-botones thead 
+    background-color: $color-adicional-1
+
+//ACORDION A
+.tarjeta.bg-card
+  background-color: #F2E5DB
+.tarjeta.bg-card.acordion__activo
+  background-color: #E9D6D8
+.tarjeta.bg-card.acordion__activo .acordion__titulo h3
+  color: $color-sistema-texto !important
+.acordion__accion__btn--a
+    background-color: $color-acento-botones
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+    color: white;
+
+//CAJONES
+.cajon.color-acento-botones
+    background-color: #D7D4D7
+
+//TABS
+.tabs-a__tab
+    background-color: #F8ECEB
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+    color: $white !important
+
+//TAJETA HOVER
+.tarjeta--boton
+    background-color: #F3D9D4
+.tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover
+    background-color: #F2EBFF
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -71,6 +138,10 @@ figcaption
 .bg-color
   &-1
     background-color: #F8ECEB
+  &-2
+    background-color: #FAF6F3
+  &-3
+    background-color: #F2EBFF
 
 
 
@@ -88,7 +159,19 @@ figcaption
     background-color: $color-acento-botones
     
 
+.pcus
+  &-1
+    padding: 3rem !important;
 
+.hcus
+  &-1
+    height: 400px
+
+.wcus
+  &-1
+    width: 15%
+  &-t2
+    width: 20%
 
 
 /**************************************************************/
@@ -115,6 +198,9 @@ figcaption
     right: -10% !important;
   .slyder-a__btn--atrs
     left: -10% !important;
+  .pcus
+    &-1
+      padding: 0.5rem !important;
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
