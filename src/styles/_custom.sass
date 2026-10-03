@@ -94,6 +94,8 @@ figcaption
 //TABLAS
 .tabla-a.color-acento-botones thead 
     background-color: $color-adicional-1
+.tabla-a.t-cus table td
+    line-height: 2 !important
 
 //ACORDION A
 .tarjeta.bg-card
@@ -116,12 +118,38 @@ figcaption
     background-color: #F8ECEB
 .tabs-a.color-acento-botones .tabs-a__tab__selected 
     color: $white !important
+.tabs-a__tab__text
+    text-wrap: initial;  
 
 //TAJETA HOVER
 .tarjeta--boton
     background-color: #F3D9D4
 .tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover
     background-color: #F2EBFF
+
+//TABS C
+.tabs-c 
+    border-bottom: 0px
+.tabs-c.color-primario .tabs-c__tab
+    background-color: #F2EBFF
+    border-bottom-color: #D2CADF
+
+.tabs-c.color-primario .tabs-c__tab--active
+    background-color: #fff
+    border-bottom-color: #D5AEB1 !important
+    color: $color-sistema-texto !important
+    z-index: 1;
+
+.tabs-c.color-primario .tabs-c__tab--active:before
+    border-top-color: #D5AEB1 !important
+    
+.tabs-c.color-primario .tabs-c__tab--active span
+    font-weight: bold !important
+.tabs-c__content-item
+    background: #F9F7F0;
+    position: relative;
+    top: -13px;
+    z-index: 0;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -142,8 +170,12 @@ figcaption
     background-color: #FAF6F3
   &-3
     background-color: #F2EBFF
+  &-4
+    background-color: #D7D4D7
 
-
+.br
+  &-1
+    border-radius: 20px
 
 
 
@@ -162,6 +194,8 @@ figcaption
 .pcus
   &-1
     padding: 3rem !important;
+  &-2
+    padding: 2rem !important;
 
 .hcus
   &-1
@@ -170,6 +204,8 @@ figcaption
 .wcus
   &-1
     width: 15%
+  &-2
+    width: 85%
   &-t2
     width: 20%
 
@@ -201,6 +237,8 @@ figcaption
   .pcus
     &-1
       padding: 0.5rem !important;
+    &-2
+      padding: 1rem !important;
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
