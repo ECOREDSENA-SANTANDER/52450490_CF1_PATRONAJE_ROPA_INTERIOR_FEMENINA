@@ -17,7 +17,7 @@
           p.mb-0 Además, se reconocerán los textiles y sus criterios de uso, así como aspectos relacionados con el consumo de material textil. De esta manera, el aprendiz contará con una base técnica para comprender la relación entre la estructura corporal, las medidas, las tallas, los textiles y el tipo de prenda, como fundamento para continuar con el proceso de patronaje de ropa interior femenina.
 
       .col-sm-12.col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/temas/intro/1.png', alt='')
+        img(src='@/assets/curso/temas/intro/1.png')
 
 
     .row.justify-content-center.align-items-center           
