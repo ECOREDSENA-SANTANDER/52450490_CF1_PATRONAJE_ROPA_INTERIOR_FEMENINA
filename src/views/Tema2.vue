@@ -509,7 +509,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/nrZzZ6GeEjY?si=jrql1gmrpp7ZC5xT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/ppOfZh4ZzQg?si=D7i25HruDiwqcQIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
       p.mb-0(data-aos='fade-right') La aplicación sistemática de estos controles permite obtener registros corporales más consistentes y disponer de información confiable para su posterior organización y análisis. A partir de estos datos es posible avanzar hacia la construcción y lectura de cuadros de tallas.
 

@@ -126,7 +126,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/mc1kARHDHrs?si=wLrDMiUCxcuMDSJ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/kL9UYOzJD3o?si=eg3zdiBjaOdq5hR9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       .cajon.color-acento-botones.p-4.mb-0(data-aos='fade-right')
         p.mb-3 En este recurso se profundiza en la estructura, fluidez, expansión y compresión de los textiles, así como en aspectos relacionados con las entretelas y su aplicación.
         p.mb-0 La identificación de estas características permite relacionar el comportamiento del material con las condiciones de uso de la prenda y constituye una base para seleccionar y aprovechar adecuadamente los textiles durante el proceso de patronaje.
